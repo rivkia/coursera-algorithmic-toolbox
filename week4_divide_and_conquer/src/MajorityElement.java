@@ -53,16 +53,6 @@ public class MajorityElement {
             return -1;
     }
 
-//    private static void quickSort(int[] a, int left, int right) {
-//        if (left >= right) {
-//            return;
-//        }
-//        int[] m = partition(a, left, right);
-//        quickSort(a, left, m[0] - 1);
-//        quickSort(a, m[1] + 1, right);
-//    }
-
-
     private static int[] partition(int[] a, int left, int right) {
         int x = a[left];
         int m1 = left;
@@ -88,6 +78,15 @@ public class MajorityElement {
         arr[i] = (arr[i] + arr[j]) - (arr[j] = arr[i]);
     }
 
+
+    //    private static void quickSort(int[] a, int left, int right) {
+//        if (left >= right) {
+//            return;
+//        }
+//        int[] m = partition(a, left, right);
+//        quickSort(a, left, m[0] - 1);
+//        quickSort(a, m[1] + 1, right);
+//    }
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner(System.in);
         int n = scanner.nextInt();

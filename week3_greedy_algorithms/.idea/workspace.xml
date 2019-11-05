@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be91d570-6ccc-4420-8bb1-c55aed45347f" name="Default Changelist" comment="" />
+    <list default="true" id="be91d570-6ccc-4420-8bb1-c55aed45347f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3_hash_tables/src/HashChains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3_hash_tables/src/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week5_dynamic_programming1/src/ChangeDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week5_dynamic_programming1/src/PartitionMinimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week5_dynamic_programming1/src/PrimitiveCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week5_dynamic_programming1/src/SumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week5_dynamic_programming1/src/common/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week5_dynamic_programming1/week5_dynamic_programming1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoveringSegments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoveringSegments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/out/production/week4_divide_and_conquer/Inversions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/out/production/week4_divide_and_conquer/Inversions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/out/production/week4_divide_and_conquer/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/out/production/week4_divide_and_conquer/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/out/production/week4_divide_and_conquer/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/out/production/week4_divide_and_conquer/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/src/Closest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/src/Closest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/src/Inversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/src/Inversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/src/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/src/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/src/PointsAndSegments.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/src/PointsAndSegments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week4_divide_and_conquer/src/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week4_divide_and_conquer/src/Sorting.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SJkSRiqrnJCm1iT0AeeFMNQlbq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
@@ -90,6 +117,19 @@
       <updated>1571289085593</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

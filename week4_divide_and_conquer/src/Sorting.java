@@ -2,32 +2,6 @@ import java.io.*;
 import java.util.*;
 
 public class Sorting {
-    private static Random random = new Random();
-
-    public static void swap(int[] arr, int i, int j) {
-        arr[i] = (arr[i] + arr[j]) - (arr[j] = arr[i]);
-    }
-
-    private static int[] partition3(int[] a, int l, int r) {
-        int x = a[l];
-        int m1 = l;
-        int m2 = l;
-        for (int i = l + 1; i <= r; i++) {
-            if (a[i] < x) {
-                m1++;
-                m2++;
-                swap(a, i, m2);
-                if (m1 < m2)
-                    swap(a, m1, m2);
-            }
-            if (a[i] == x) {
-                m2++;
-                swap(a, i, m2);
-            }
-        }
-        swap(a, l, m1);
-        return new int[]{m1, m2};
-    }
 
     private static int partition2(int[] a, int l, int r) {
         int x = a[l];
@@ -58,6 +32,32 @@ public class Sorting {
         int m = partition2(a, l, r);
         randomizedQuickSort(a, l, m - 1);
         randomizedQuickSort(a, m + 1, r);
+    }
+    private static Random random = new Random();
+
+    public static void swap(int[] arr, int i, int j) {
+        arr[i] = (arr[i] + arr[j]) - (arr[j] = arr[i]);
+    }
+
+    private static int[] partition3(int[] a, int l, int r) {
+        int x = a[l];
+        int m1 = l;
+        int m2 = l;
+        for (int i = l + 1; i <= r; i++) {
+            if (a[i] < x) {
+                m1++;
+                m2++;
+                swap(a, i, m2);
+                if (m1 < m2)
+                    swap(a, m1, m2);
+            }
+            if (a[i] == x) {
+                m2++;
+                swap(a, i, m2);
+            }
+        }
+        swap(a, l, m1);
+        return new int[]{m1, m2};
     }
 
     private static void randomizedQuickSortBetter(int[] a, int l, int r) {

@@ -10,7 +10,7 @@ public class Inversions {
         int ave = (left + right) / 2;
         numberOfInversions += getNumberOfInversions(a, b, left, ave);
         numberOfInversions += getNumberOfInversions(a, b, ave, right);
-        //write your code here
+
         numberOfInversions += merge(a, b, left, right);
 
         return numberOfInversions;

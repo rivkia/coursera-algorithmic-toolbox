@@ -2,14 +2,11 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class CoveringSegments {
-
-    private Segment nextSegment;
-
     private static ArrayList<Integer> optimalPoints(Segment[] segments) {
         ArrayList<Integer> points = new ArrayList<>();
         if (segments.length == 0)
             return points;
-        //sort segments by start, end
+        //sort segments by start, end, n log n
         Arrays.sort(segments, (a, b) -> {
             if (a.start == b.start) {
                 return Integer.compare(a.end, b.end);
